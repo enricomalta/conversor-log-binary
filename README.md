@@ -1,6 +1,6 @@
 # Conversão de Arquivos Texto para Binário e Vice-Versa
 
-Este projeto consiste em um programa em C# que converte arquivos de texto em arquivos binários compactados e, em seguida, pode converter arquivos binários de volta para texto. O processo de conversão binária envolve a compactação dos dados usando GZip.
+Este projeto consiste em um programa em C# que converte arquivos de texto em arquivos binários compactados e, posteriormente, permite converter os arquivos binários de volta para texto. O processo de conversão binária utiliza compressão de dados com GZip. Em uso profissional, essa abordagem proporcionou uma redução de até 97% no tamanho dos arquivos — por exemplo, um arquivo de 100 GB passou a ocupar apenas 3 GB —, otimizando significativamente o armazenamento de logs. Isso possibilita, no futuro, a utilização desses dados para alimentar sistemas inteligentes, sem comprometer o espaço de armazenamento.
 
 ## Funcionalidades
 
